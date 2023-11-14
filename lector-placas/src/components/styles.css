@@ -15,8 +15,8 @@ body {
     }
     .logo-container {
         position: absolute;
-        margin-top: 10px;
-        margin-left: 30px;
+        margin-top: 20px;
+        margin-left: 60px;
     }
     .header {
         margin-left: 100px;
@@ -74,9 +74,9 @@ body {
     .background-image {
         position: absolute;
         margin-left: 750px;
-        margin-top: 150px;
-        max-height: 462px;
-        max-width: 553px;
+        margin-top: 0px;
+        height: 420px;
+        width: 561px;
         overflow: hidden;
     }
 /* index text */
@@ -86,6 +86,7 @@ body {
     }
     #prefix {
         margin-bottom: 10px;
+        margin-top: 200px;
         letter-spacing: 0.15em;
         font-size: 30px;
         font-weight: 100;
