@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div class="home">
             <div class="background-image">
-                <img src={URI} alt="backgound"/>
+                <img src={URI} alt="backgound" class="rotating-image"/>
             </div>
             <div class="text">
                 <p id="prefix">A TU ALCANCE</p>
