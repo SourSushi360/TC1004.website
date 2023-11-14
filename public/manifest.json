@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Placositos",
+  "name": "Placositos - Lector de Placas",
   "icons": [
     {
       "src": "favicon.ico",
