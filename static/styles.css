@@ -58,3 +58,29 @@ body {
         color: yellow;
         text-decoration: underline;
     }
+/* background-image */
+    .background-image {
+        position: absolute;
+        margin-left: 750px;
+        margin-top: 75px;
+        max-height: 500px;
+        overflow: hidden;
+    }
+/* index text */
+    .text {
+        margin-left: 60px;
+    }
+    #prefix {
+        margin-bottom: 10px;
+        letter-spacing: 0.15em;
+        font-size: 30px;
+        font-weight: 100;
+        color: rgb(184, 184, 184);
+    }
+    #index-h {
+        margin-top: 0px;
+        letter-spacing: 0.1em;
+        font-size: 60px;
+        font-weight: 800;
+        max-width: 200px;
+    }
