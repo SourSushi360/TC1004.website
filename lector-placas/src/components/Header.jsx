@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Registro from './Registro';
 
 const Header = () => {
@@ -13,11 +13,11 @@ const Header = () => {
             </div>
             <div class="header">
                 <a href="/" class="logo">PLACOSITOS</a>
-                <a href="/" id="present">INICIO</a>
-                <a href="#cotos">COTOS</a>
-                <a href="#ingresos">INGRESOS</a>
-                <a href="#contacto">CONTACTO</a>
-                <a href="#iniciar-sesion" class="login" id="iniciar-sesion">INICIAR SESIÓN</a>
+                <NavLink to="/" exact activeClassName="active">INICIO</NavLink>
+                <NavLink to="/cotos" exact activeClassName="active">COTOS</NavLink>
+                <NavLink to="/ingresos" exact activeClassName="active">INGRESOS</NavLink>
+                <NavLink to="/contacto" exact activeClassName="active">CONTACTO</NavLink>
+                <a href="/iniciar-sesion" class="login" id="iniciar-sesion">INICIAR SESIÓN</a>
                 <a href="/registro" class="login" id="registro">REGISTRO</a>
             </div>
         </div>
