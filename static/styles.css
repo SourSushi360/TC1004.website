@@ -63,6 +63,11 @@ body {
         color: yellow;
         text-decoration: underline;
     }
+    .header #present {
+        font-weight: 600;
+        color: yellow;
+        text-decoration: underline;
+    }
 /* background-image */
     .background-image {
         position: absolute;
