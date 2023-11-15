@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { AuthProvider } from '../lector-placas/src/AuthContext';
+import { AuthProvider } from './AuthContext';
 import FormSession from './components/FormSession';
 import FormReg from './components/FormReg';
 import Visitas from './Visitas';

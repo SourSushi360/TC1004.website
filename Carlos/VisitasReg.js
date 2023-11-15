@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import NavigationBar from './components/NavigationBar.js';
 import RegistroVisita from './components/RegistroVisita.js';
 import './Home.css';
-import { useAuth } from '../lector-placas/src/AuthContext.js'; // Importa el contexto de autenticación
+import { useAuth } from './AuthContext.js'; // Importa el contexto de autenticación
 import { useNavigate } from 'react-router-dom';
 function VisitasReg() {
   const [nombre, setNombre] = useState("No hay nombre disponible");

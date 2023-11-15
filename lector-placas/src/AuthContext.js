@@ -10,8 +10,8 @@ export function AuthProvider({ children }) {
 
   const login = (userData) => {
     console.log('userData antes de JSON.stringify:', userData);
-const serializedUserData = JSON.stringify(userData);
-console.log('serializedUserData:', serializedUserData);
+    const serializedUserData = JSON.stringify(userData);
+    console.log('serializedUserData:', serializedUserData);
     // Realiza la lógica de inicio de sesión y actualiza loggedIn y user
     setLoggedIn(true);
     setUser(userData); // Establece la información del usuario
