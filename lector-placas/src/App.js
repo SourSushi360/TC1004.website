@@ -1,7 +1,7 @@
 import './App.css';
 import { AuthProvider } from './AuthContext';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Home, Registro, Cotos, Ingresos, Contacto, IniciarSesion } from './components';
+import { Home, Registro, Cotos, Ingresos, Contacto, IniciarSesion } from './pages';
 
 function App() {
   return (

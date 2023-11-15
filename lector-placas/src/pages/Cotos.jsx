@@ -1,13 +1,13 @@
 import React from 'react';
 import './styles.css';
-import Header from './Header';
+import Header from './components/Header';
 
-const Contacto = () => {
+const Cotos = () => {
     return (
-        <div class="contacto">
+        <div class="cotos">
             <Header/>;
         </div>
     );
 };
 
-export default Contacto;
+export default Cotos;
