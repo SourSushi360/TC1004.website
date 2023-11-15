@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import {Header, Home, Registro, Cotos, Ingresos, Contacto, IniciarSesion} from './components';
-import { Suspense } from 'react';
+import { AuthProvider } from './AuthContext';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Home, Registro, Cotos, Ingresos, Contacto, IniciarSesion } from './components';
 
 function App() {
   return (
     <Router>
-      <Suspense>
+      <AuthProvider>
         <Routes>
           <Route path='/' exact Component={Home}/>
           <Route path='/registro' exact Component={Registro}/>
@@ -16,7 +15,7 @@ function App() {
           <Route path='/contacto' exact Component={Contacto}/>
           <Route path='/iniciar-sesion' exact Component={IniciarSesion}/>
         </Routes>
-      </Suspense>
+      </AuthProvider>
     </Router>
   );
 }
