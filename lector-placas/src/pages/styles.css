@@ -72,10 +72,14 @@ body {
         text-decoration: underline;
     }
 /* background-image */
+    :root {
+        --altura-imagen: calc(100vh - 508px);
+        --ancho-imagen: calc(100vw - 661px);
+    }
     .background-image {
         position: absolute;
-        margin-left: 650px;
-        margin-top: 112px;
+        margin-left: var(--ancho-imagen);
+        margin-top: var(--altura-imagen);
         height: 490px;
         width: 661px;
         overflow: hidden;
